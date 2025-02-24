@@ -1,0 +1,1542 @@
+{
+  "links": {
+    "first": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/studies?experiment_type=metagenomic&ordering=accession&page=1",
+    "last": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/studies?experiment_type=metagenomic&ordering=accession&page=12",
+    "next": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/studies?experiment_type=metagenomic&ordering=accession&page=2",
+    "prev": null
+  },
+  "data": [
+    {
+      "type": "studies",
+      "id": "MGYS00005333",
+      "attributes": {
+        "samples-count": 244,
+        "accession": "MGYS00005333",
+        "bioproject": "PRJEB26832",
+        "is-private": false,
+        "last-update": "2024-06-28T21:01:05",
+        "secondary-accession": "ERP108859",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The Gut microbial dysbiosis in young adults with obesity Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set: PRJEB12123.  This project includes samples from the following biomes: Host-associated, Human, Digestive system, Large intestine, Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of the Gut microbial dysbiosis in young adults with obesity (Gut microbial dysbiosis in young adults with obesity) data set.",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00005230",
+      "attributes": {
+        "samples-count": 915,
+        "accession": "MGYS00005230",
+        "bioproject": "PRJEB5729",
+        "is-private": false,
+        "last-update": "2024-06-28T15:19:05",
+        "secondary-accession": "ERP005153",
+        "centre-name": "CCME-COLORADO",
+        "public-release-date": null,
+        "study-abstract": "Fecal samples from Flores_SMP for EBI submission",
+        "study-name": "Flores_fecal_EBI",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005230"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00002061",
+      "attributes": {
+        "samples-count": 52,
+        "accession": "MGYS00002061",
+        "bioproject": "PRJEB22554",
+        "is-private": false,
+        "last-update": "2024-05-13T20:09:07",
+        "secondary-accession": "ERP104235",
+        "centre-name": "EMBL-EBI",
+        "public-release-date": null,
+        "study-abstract": "The human gut metagenome Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set PRJNA321058. This project includes samples from the following biomes : Human gut.",
+        "study-name": "EMG produced TPA metagenomics assembly of the Increased intestinal microbial diversity following fecal microbiota transplant for active Crohn''s disease (human gut metagenome) data set",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002061"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006551",
+      "attributes": {
+        "samples-count": 2043,
+        "accession": "MGYS00006551",
+        "bioproject": "PRJEB67738",
+        "is-private": false,
+        "last-update": "2024-04-10T16:22:43",
+        "secondary-accession": "ERP152745",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The Third Party Annotation (TPA)  assembly was derived from the primary whole genome shotgun (WGS) data set PRJEB62473, and was assembled with metaspades v3.15.3. This project includes samples from the following biomes: root:Host-associated:Human:Digestive system:Large intestine:Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of PRJEB62473 data set (The INTEGRATE project).",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006551"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00005023",
+      "attributes": {
+        "samples-count": 122,
+        "accession": "MGYS00005023",
+        "bioproject": "PRJEB27122",
+        "is-private": false,
+        "last-update": "2024-02-02T22:19:45",
+        "secondary-accession": "ERP109164",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The 123CD-metagenomics Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set: PRJEB15371.  This project includes samples from the following biomes: Host-associated, Human, Digestive system, Large intestine, Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of the The gut microbiome in Crohn's disease and modulation by exclusive enteral nutrition (123CD-metagenomics) data set.",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005023"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00003468",
+      "attributes": {
+        "samples-count": 396,
+        "accession": "MGYS00003468",
+        "bioproject": "PRJEB25962",
+        "is-private": false,
+        "last-update": "2024-01-23T15:36:44",
+        "secondary-accession": "ERP107929",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The  Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set: PRJEB1220.  This project includes samples from the following biomes: Host-associated, Human, Digestive system, Large intestine, Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of the A method for identifying metagenomic species and variable genetic elements by exhaustive co-abundance binning () data set.",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00005234",
+      "attributes": {
+        "samples-count": 502,
+        "accession": "MGYS00005234",
+        "bioproject": "PRJEB6705",
+        "is-private": false,
+        "last-update": "2024-01-23T14:40:52",
+        "secondary-accession": "ERP006342",
+        "centre-name": "CCME-COLORADO",
+        "public-release-date": null,
+        "study-abstract": "second half of Goodrich_MiSeq for EBI submission",
+        "study-name": "Goodrich_TwinsUK_Miseq_2",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005234"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00003511",
+      "attributes": {
+        "samples-count": 102,
+        "accession": "MGYS00003511",
+        "bioproject": "PRJEB26924",
+        "is-private": false,
+        "last-update": "2024-01-17T01:24:56",
+        "secondary-accession": "ERP108955",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The CHD102-metagenomics Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set: PRJEB15111.  This project includes samples from the following biomes: Host-associated, Human, Digestive system, Large intestine, Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of the Integrated metabolomics and metagenomics analysis of plasma and urine identified microbial metabolites associated with coronary heart disease (CHD102-metagenomics) data set.",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003511"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00001189",
+      "attributes": {
+        "samples-count": 408,
+        "accession": "MGYS00001189",
+        "bioproject": "PRJNA318004",
+        "is-private": false,
+        "last-update": "2024-01-12T14:50:59",
+        "secondary-accession": "SRP073172",
+        "centre-name": "mothur",
+        "public-release-date": null,
+        "study-abstract": "Using DNA extracted from fecal immunochemical test cartridges rather than directly from stool for detecting colorectal cancer based on the gut microbiome.",
+        "study-name": "DNA from FIT can replace stool for microbiota-based colorectal",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001189"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00001255",
+      "attributes": {
+        "samples-count": 350,
+        "accession": "MGYS00001255",
+        "bioproject": "PRJNA307231",
+        "is-private": false,
+        "last-update": "2024-01-12T14:01:54",
+        "secondary-accession": "SRP068240",
+        "centre-name": "IrsiCaixa Foundation",
+        "public-release-date": null,
+        "study-abstract": "The precise effects of HIV-1 on the human microbiome are unclear. Initial cross-sectional studies provided contradictory associations between microbial richness and HIV status and suggested shifts from Bacteroides to Prevotella predominance following HIV-1 infection, which have not been found in animal models or in studies matched for HIV-1 risk groups.This was a cross-sectional study where we first tested 129 HIV-1-infected subjects and 27 HIV-negative controls in Barcelona (BCN0). Findings were internally validated in 110 subjects from BCN0 providing a second fecal sample 1 month later. External validation was obtained in 77 HIV-1-infected and 7 non-infected subjects from Stockholm. In all study participants, we produced MiSeq 16S rRNA data on fecal microbiomes and collected comprehensive metadata.",
+        "study-name": "Human feces metagenome 16s rDNA sequencing",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001255"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00003575",
+      "attributes": {
+        "samples-count": 123,
+        "accession": "MGYS00003575",
+        "bioproject": "PRJEB26165",
+        "is-private": false,
+        "last-update": "2024-01-10T13:47:15",
+        "secondary-accession": "ERP108138",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The human gut metagenome Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set: PRJNA240307.  This project includes samples from the following biomes: Host-associated, Human, Digestive system, Large intestine, Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of the C.diff FMT (human gut metagenome) data set.",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003575"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006553",
+      "attributes": {
+        "samples-count": 82,
+        "accession": "MGYS00006553",
+        "bioproject": "PRJEB67980",
+        "is-private": false,
+        "last-update": "2024-01-09T03:36:29",
+        "secondary-accession": "ERP152995",
+        "centre-name": "EMG",
+        "public-release-date": null,
+        "study-abstract": "The Third Party Annotation (TPA)  assembly was derived from the primary whole genome shotgun (WGS) data set PRJEB27928, and was assembled with metaspades v3.15.3. This project includes samples from the following biomes: root:Host-associated:Human:Digestive system:Large intestine:Fecal.",
+        "study-name": "EMG produced TPA metagenomics assembly of PRJEB27928 data set (Meta-analysis of fecal metagenomes reveals global microbial signatures that are specific for colorectal cancer.).",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006553"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00001278",
+      "attributes": {
+        "samples-count": 820,
+        "accession": "MGYS00001278",
+        "bioproject": "PRJEB6518",
+        "is-private": false,
+        "last-update": "2024-01-08T13:29:07",
+        "secondary-accession": "ERP006059",
+        "centre-name": "CCME-COLORADO",
+        "public-release-date": null,
+        "study-abstract": "Background,disturbance to human microbiota has been associated with numerous pathologies. Yet, we lack a comprehensive understanding for how human health and lifestyle affect the dynamics of human-associated microbial communities. Results, we link over 10,000 longitudinal measurements of host wellness and action to the daily gut and salivary microbiota dynamics of two individuals over the course of one year. These time-series show overall microbial communities to be stable for months. However, rare events in each of the subjects life rapidly and broadly impacted microbiota dynamics. Travel from the developed to the developing world in one subject led to a nearly two-fold increase in the Bacteroidetes to Firmicutes ratio, which reversed upon return. Enteric infection in the other subject resulted in the permanent decline of most gut bacterial taxa, which were replaced by genetically-similar species. Still, even during periods of overall community stability, we could associate the dynamics of select microbial taxa to specific host behaviors. Most prominently, changes in host fiber intake correlated with next-day abundance changes among 15 percent of gut microbiota members.Conclusions,our findings suggest that although human-associated microbial communities are generally stable, they can be quickly and profoundly altered by common human actions and experiences.",
+        "study-name": "Host lifestyle affects human microbiota on daily timescales",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001278"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00000580",
+      "attributes": {
+        "samples-count": 75,
+        "accession": "MGYS00000580",
+        "bioproject": "PRJEB11846",
+        "is-private": false,
+        "last-update": "2024-01-08T11:25:05",
+        "secondary-accession": "ERP013262",
+        "centre-name": "UNIVERSITY OF FLORENCE",
+        "public-release-date": null,
+        "study-abstract": "Characterization of gut microbiota in Juvenile Idiopathic arthritis and comparison with healthy subjects.",
+        "study-name": "Gut microbiota of Juvenile Idiopathic arthritis",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000580"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00001211",
+      "attributes": {
+        "samples-count": 8,
+        "accession": "MGYS00001211",
+        "bioproject": "PRJNA326143",
+        "is-private": false,
+        "last-update": "2024-01-05T09:30:27",
+        "secondary-accession": "SRP076746",
+        "centre-name": "Seoul National University",
+        "public-release-date": null,
+        "study-abstract": "The objective of this study was to investigate the general characteristics and environmental factors, such as dietary pattern and physical activities, of elderly women from Seoul and Jeju Island, and to characterize the composition of their fecal microbiota",
+        "study-name": "human gut metagenome Metagenome",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001211"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006023",
+      "attributes": {
+        "samples-count": 131,
+        "accession": "MGYS00006023",
+        "bioproject": "PRJNA787810",
+        "is-private": false,
+        "last-update": "2024-01-04T11:43:42",
+        "secondary-accession": "SRP350207",
+        "centre-name": "Luxia Scientific",
+        "public-release-date": null,
+        "study-abstract": "In the context of the COVID-19 pandemic, the role of the gut microbiome is yet unknown. The aim of this trial is to evaluate the clinical contribution of the gut microbiome composition and diversity on the disease severity and to estimate the viral load in stool samples.",
+        "study-name": "Observational Study on the Diagnostic Evaluation of the Intestinal Microbiota of Patients With COVID-19. (EDIFICE)",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006023"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006121",
+      "attributes": {
+        "samples-count": 42,
+        "accession": "MGYS00006121",
+        "bioproject": "PRJEB57228",
+        "is-private": false,
+        "last-update": "2024-01-04T11:33:48",
+        "secondary-accession": "ERP142200",
+        "centre-name": "Quadram Institute Bioscience",
+        "public-release-date": null,
+        "study-abstract": "[Placeholder]",
+        "study-name": "Dietary intervention of people with Parkinson's disease",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006121"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006226",
+      "attributes": {
+        "samples-count": 67,
+        "accession": "MGYS00006226",
+        "bioproject": "PRJNA774891",
+        "is-private": false,
+        "last-update": "2023-12-21T13:33:23",
+        "secondary-accession": "SRP343296",
+        "centre-name": "Technical Univeristy of Munich",
+        "public-release-date": null,
+        "study-abstract": "Aim of this project was to investgigate the effect of fiber-rich diets in the human gut microbiome. The participants were asked to visit the study center sober and received the intervention meal or placebo meal. Additionally, a capsule with food coloring was administered. The intake of the dye stains the stool green which helps to associate collected stool samples and food intake. 16S rRNA gene was sequenced at ZIEL Core Facility Microbiome, Technical University Munich, Germany.",
+        "study-name": "Effects of Dietary Fiber Intervention on Gut Microbiota in Healthy People",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006226"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006224",
+      "attributes": {
+        "samples-count": 100,
+        "accession": "MGYS00006224",
+        "bioproject": "PRJEB52848",
+        "is-private": false,
+        "last-update": "2023-12-21T12:34:37",
+        "secondary-accession": "ERP137596",
+        "centre-name": "WAGENINGEN UNIVERSITY, LABORATORY OF MICROBIOLOGY",
+        "public-release-date": null,
+        "study-abstract": "in the present study, we examined the effect of bovine lactoferrin, galactoligosacharides and vitamind D on the gut microbiota composition of 25 elderly women. Participants were distributed into two groups receiving either the dietary intervention (n=12) or the placebo treatment (n=13) for a total period of 9 weeks. During the first 3 weeks of the study, the intervention group consumed 1 g/day bLF, followed by 3 weeks of 1 g/day bLF and 2.64g/day active galactooligosaccharides (GOS), and 3 weeks of 1 g/day bLF, 2.64g/day GOS and 20 μg/day of vitamin D. The placebo group received maltodextrin, in matching dosages with the supplements administrated to the intervention group. Fecal bacterial composition was profiled using partial 16S rRNA gene amplicon sequencing and short-chain fatty acids analysis (SCFA) concentrations were determined with high liquid performance chromatography. Finally, the fecal levels of calprotectin, zonulin, and alpha-1-antitrypsin were measured, as markers of gastrointestinal barrier and inflammation.",
+        "study-name": "The effect of nutritional intervention with lactoferrin, galactooligosacharides and vitamin D on the gut microbiota composition of healthy elderly women",
+        "data-origination": "SUBMITTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006224"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006559",
+      "attributes": {
+        "samples-count": 102,
+        "accession": "MGYS00006559",
+        "bioproject": "PRJNA752174",
+        "is-private": false,
+        "last-update": "2023-12-21T11:28:40",
+        "secondary-accession": "SRP331280",
+        "centre-name": "Institute of Microbiology, GuangdongAcademy of Sciences",
+        "public-release-date": null,
+        "study-abstract": "To date, much progress has been made in dietary therapy for obese patients. A low-carbohydrate diet (LCD) has reached a revival in its clinical use during the past decade with undefined mechanisms and debatable efficacy. Gut microbiota has been suggested to promote energy harvesting. Here, we propose that gut microbiota contributes to the inconsistent outcome under LCD. To test this hypothesis, patients with obesity or overweight were randomly assigned either to a normal diet (ND) or LCD group with ad libitum energy intake for 12 weeks. Using matched sampling, the microbiome profile at baseline and end-stage was examined. The relative abundance of butyrate-producing bacteria, Porphyromonadaceae Parabacteroides and Ruminococcaceae Oscillospira, was markedly increased after LCD intervention for 12 weeks. Moreover, within LCD group, participants with a higher relative abundance of Bacteroidaceae Bacteroides at baseline exhibited a better response to LCD intervention and achieved greater weight loss outcomes. Nevertheless, the adoption of an artificial neural network (ANN)-based prediction model greatly surpasses general linear model in predicting weight loss outcomes after LCD intervention. Therefore, gut microbiota served as a positive outcome predictor has the potential to predict weight loss outcomes after short-term LCD intervention. Gut microbiota may help to guide the clinical application of short-term LCD intervention to develop effective weight loss strategies.",
+        "study-name": "Influence of gut microbiota on short-term low carbohydrate diet intervention for weight loss therapy",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006559"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006431",
+      "attributes": {
+        "samples-count": 24,
+        "accession": "MGYS00006431",
+        "bioproject": "PRJNA982880",
+        "is-private": false,
+        "last-update": "2023-09-26T14:44:06",
+        "secondary-accession": "SRP442920",
+        "centre-name": "University of Alabama at Birmingham",
+        "public-release-date": null,
+        "study-abstract": "Prior investigations of the airway microbiome have inconsistently shown an association between bacterial community composition and bronchopulmonary dysplasia (BPD) development. However, these prior studies have focused exclusively on the bacterial microbiome. Here, we show features of the intestinal fungal microbiome predict the development of BPD in very low birthweight preterm newborns, and that this effect is transferable into mice with fecal microbiota transplant.",
+        "study-name": "The fungal intestinal microbiota predict the development of bronchopulmonary dysplasia",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006431"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006453",
+      "attributes": {
+        "samples-count": 86,
+        "accession": "MGYS00006453",
+        "bioproject": "PRJNA811494",
+        "is-private": false,
+        "last-update": "2023-09-06T12:44:03",
+        "secondary-accession": "SRP361980",
+        "centre-name": "Leibniz Institute for Natural Product Research and Infection Biology - Hans Knoell Institute (HKI)",
+        "public-release-date": null,
+        "study-abstract": "Investigating Bacteriome and Mycobiome interactions, and their contribution to lung cancer treatment. For treatment, anti-cancer combination therapy was used.",
+        "study-name": "ITS2 and whole metagenomics from stool of human lung cancer patients from hungary",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006453"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006419",
+      "attributes": {
+        "samples-count": 75,
+        "accession": "MGYS00006419",
+        "bioproject": "PRJNA859507",
+        "is-private": false,
+        "last-update": "2023-09-03T13:10:07",
+        "secondary-accession": "SRP386769",
+        "centre-name": "The Second Affiliated Hospital of Fujian University of Traditional Chinese Medicine",
+        "public-release-date": null,
+        "study-abstract": "This study aims to investigate the dynamic changes and metabolic function of intestinal flora in patients with lung cancer and postoperative pneumonia (POP), and to provide new ideas and targets for the prevention and treatment of POP.",
+        "study-name": "Dynamic changes of intestinal flora and metabolic function in patients with postoperative pneumonia after lung cancer surgery",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006419"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006399",
+      "attributes": {
+        "samples-count": 149,
+        "accession": "MGYS00006399",
+        "bioproject": "PRJNA805069",
+        "is-private": false,
+        "last-update": "2023-09-03T03:10:49",
+        "secondary-accession": "SRP359154",
+        "centre-name": "Sheba Medical Center, Tel-Hashomer, Israel.",
+        "public-release-date": null,
+        "study-abstract": "Stool samples for microbial 16S amplicon sequencing and clinical data were collected from 75 lung cancer patients (50 of which were treated with checkpoint inhibitors) and 31 age-matched healthy volunteers. We compared using multivariate analyses cancer patients to healthy controls, and within lung cancer we compared patients with DCB to those without DCB.",
+        "study-name": "Gut microbial signature in lung cancer patients highlights specific taxa as predictors for durable clinical benefit",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006399"
+      }
+    },
+    {
+      "type": "studies",
+      "id": "MGYS00006394",
+      "attributes": {
+        "samples-count": 47,
+        "accession": "MGYS00006394",
+        "bioproject": "PRJNA782662",
+        "is-private": false,
+        "last-update": "2023-09-03T01:59:37",
+        "secondary-accession": "SRP347299",
+        "centre-name": "University of Trieste",
+        "public-release-date": null,
+        "study-abstract": "Aside from PD-L1 expression, biomarkers of response to immune checkpoint inhibitors (ICI) in non-small cell lung cancer (NSCLC) are needed. In a previous retrospective analysis, we documented that fecal Akkermansia muciniphila (Akk) associated with clinical benefit of ICI in NSCLC and kidney cancer patients. In the current study, we performed shotgun metagenomics-based microbiome profiling in a large cohort of advanced NSCLC patients (n=338) treated with first or second line ICI, to prospectively validate the predictive value of fecal Akk. Baseline stool Akk was associated with increased objective response rates and overall survival in multivariate analyses, independent of PD-L1 expression, antibiotics and performance status. Intestinal Akk was accompanied by a richer commensalism, including Eubacterium hallii and Bifidobacterium adolescentis, and a more inflamed tumor microenvironment in a subset of patients. However, antibiotic use (20% of cases) coincided with a relative dominance of Akk above 4.8% accompanied with the genus Clostridium, both associated with resistance to ICI. Our study shows significant differences in relative abundance of Akk that may represent potential biomarkers to refine patient stratification in future studies.",
+        "study-name": "Intestinal Akkermansia muciniphila predicts clinical response to PD-1 blockade in advanced non-small cell lung cancer patients.",
+        "data-origination": "HARVESTED"
+      },
+      "relationships": {
+        "biomes": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394/biomes"
+          },
+          "data": [
+            {
+              "type": "biomes",
+              "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+              }
+            }
+          ]
+        },
+        "samples": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394/samples"
+          }
+        },
+        "downloads": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394/downloads"
+          }
+        },
+        "publications": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394/publications"
+          }
+        },
+        "geocoordinates": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394/geocoordinates"
+          }
+        },
+        "analyses": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394/analyses"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00006394"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pages": 12,
+      "count": 280
+    }
+  }
+}

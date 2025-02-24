@@ -1,0 +1,4 @@
+accession,sample-name,longitude,latitude,geo-loc-name,studies,biome
+ERS667520,56,-2.8297,78.4533,,"MGYS00000462,MGYS00001977",root:Environmental:Aquatic:Marine
+ERS667580,170,-20.3043,74.31,,"MGYS00000462,MGYS00001977",root:Environmental:Aquatic:Marine
+ERS667582,178,-20.3043,74.31,,"MGYS00000462,MGYS00001977",root:Environmental:Aquatic:Marine

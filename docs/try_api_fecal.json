@@ -1,0 +1,3242 @@
+{
+  "links": {
+    "first": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&page=1",
+    "last": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&page=214",
+    "next": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&page=2",
+    "prev": null
+  },
+  "data": [
+    {
+      "type": "samples",
+      "id": "ERS199007",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA1972794",
+        "longitude": 12.5683,
+        "accession": "ERS199007",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0008",
+        "sample-alias": "MH0008",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-23T15:36:44"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199007/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199007/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199007"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199362",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042577",
+        "longitude": -3.7038,
+        "accession": "ERS199362",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC4-0",
+        "sample-alias": "V1.UC4-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T15:05:40"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199362/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199362/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199362"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199344",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina HiSeq 2000",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042509",
+        "longitude": -3.7038,
+        "accession": "ERS199344",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC26-4",
+        "sample-alias": "V1.UC26-4",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:58:34"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199344/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199344/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199344"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199108",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA1965112",
+        "longitude": 12.5683,
+        "accession": "ERS199108",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0111",
+        "sample-alias": "MH0111",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:54:22"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199108/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199108/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199108"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199104",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042490",
+        "longitude": 12.5683,
+        "accession": "ERS199104",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0106",
+        "sample-alias": "MH0106",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:51:42"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199104/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199104/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199104"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199111",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042497",
+        "longitude": 12.5683,
+        "accession": "ERS199111",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0115",
+        "sample-alias": "MH0115",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:48:07"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199111/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199111/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199111"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199107",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042493",
+        "longitude": 12.5683,
+        "accession": "ERS199107",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0110",
+        "sample-alias": "MH0110",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:45:38"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199107/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199107/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199107"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199106",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042492",
+        "longitude": 12.5683,
+        "accession": "ERS199106",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0109",
+        "sample-alias": "MH0109",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:43:38"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199106/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199106/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199106"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199118",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042553",
+        "longitude": 12.5683,
+        "accession": "ERS199118",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0123",
+        "sample-alias": "MH0123",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:40:45"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199118/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199118/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199118"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199005",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042285",
+        "longitude": 12.5683,
+        "accession": "ERS199005",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0006",
+        "sample-alias": "MH0006",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:39:21"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199005/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199005/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199005"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199014",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042366",
+        "longitude": 12.5683,
+        "accession": "ERS199014",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0015",
+        "sample-alias": "MH0015",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:37:21"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199014/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199014/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199014"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199384",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina HiSeq 2000",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042630",
+        "longitude": -3.7038,
+        "accession": "ERS199384",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC54-0",
+        "sample-alias": "V1.UC54-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:29:39"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199384/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199384/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199384"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199090",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA1969296",
+        "longitude": 12.5683,
+        "accession": "ERS199090",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0092",
+        "sample-alias": "MH0092",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:27:13"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199090/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199090/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199090"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199287",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042109",
+        "longitude": -3.7038,
+        "accession": "ERS199287",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.CD19-0",
+        "sample-alias": "V1.CD19-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:16:44"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199287/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199287/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199287"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199328",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina HiSeq 2000",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042443",
+        "longitude": -3.7038,
+        "accession": "ERS199328",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC15-3",
+        "sample-alias": "V1.UC15-3",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:10:16"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199328/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199328/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199328"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199117",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042503",
+        "longitude": 12.5683,
+        "accession": "ERS199117",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0122",
+        "sample-alias": "MH0122",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T14:06:18"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199117/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199117/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199117"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199112",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042498",
+        "longitude": 12.5683,
+        "accession": "ERS199112",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0116",
+        "sample-alias": "MH0116",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:59:27"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199112/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199112/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199112"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199395",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042665",
+        "longitude": -3.7038,
+        "accession": "ERS199395",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC9-0",
+        "sample-alias": "V1.UC9-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:54:35"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199395/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199395/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199395"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199009",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042361",
+        "longitude": 12.5683,
+        "accession": "ERS199009",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0010",
+        "sample-alias": "MH0010",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:52:35"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199009/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199009/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199009"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199004",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "12.568337",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "55.676097",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 55.6761,
+        "biosample": "SAMEA2042284",
+        "longitude": 12.5683,
+        "accession": "ERS199004",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Denmark",
+        "sample-desc": "Stool sample from danish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "MH0005",
+        "sample-alias": "MH0005",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:49:37"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199004/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199004/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199004"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199205",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042917",
+        "longitude": -3.7038,
+        "accession": "ERS199205",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "O2.UC24-0",
+        "sample-alias": "O2.UC24-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:47:09"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199205/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199205/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199205"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199349",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina HiSeq 2000",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042515",
+        "longitude": -3.7038,
+        "accession": "ERS199349",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC3-2",
+        "sample-alias": "V1.UC3-2",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:44:08"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199349/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199349/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199349"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199211",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042922",
+        "longitude": -3.7038,
+        "accession": "ERS199211",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "O2.UC29-0",
+        "sample-alias": "O2.UC29-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:31:45"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199211/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199211/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199211"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199215",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042981",
+        "longitude": -3.7038,
+        "accession": "ERS199215",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "O2.UC30-0",
+        "sample-alias": "O2.UC30-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:23:01"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199215/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199215/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199215"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS199373",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "investigation type",
+            "value": "metagenome",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "MetaHIT-MGS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-3.703765869",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2008/2010",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human gut",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "human-associated habitat",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "faeces",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "human-gut",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "40.41663279",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer IIx",
+            "unit": null
+          },
+          {
+            "key": "host scientific name",
+            "value": "Homo sapiens",
+            "unit": null
+          }
+        ],
+        "latitude": 40.4166,
+        "biosample": "SAMEA2042620",
+        "longitude": -3.7038,
+        "accession": "ERS199373",
+        "analysis-completed": "2017-04-24",
+        "collection-date": "2008-01-01",
+        "geo-loc-name": "Spain",
+        "sample-desc": "Stool sample from spanish",
+        "environment-biome": "human gut",
+        "environment-feature": "human-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "V1.UC49-0",
+        "sample-alias": "V1.UC49-0",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2024-01-17T13:14:54"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199373/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001705",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001705"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00003468",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00003468"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199373/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS199373"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pages": 214,
+      "count": 5342
+    }
+  }
+}

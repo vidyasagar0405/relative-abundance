@@ -1,0 +1,2867 @@
+{
+  "links": {
+    "first": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&metadata_key=temperature&metadata_value_lte=10&ordering=accession&page=1",
+    "last": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&metadata_key=temperature&metadata_value_lte=10&ordering=accession&page=6",
+    "next": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&metadata_key=temperature&metadata_value_lte=10&ordering=accession&page=2",
+    "prev": null
+  },
+  "data": [
+    {
+      "type": "samples",
+      "id": "SRS3984170",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-02-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837333",
+        "longitude": 6.2,
+        "accession": "SRS3984170",
+        "analysis-completed": null,
+        "collection-date": "2013-02-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.4-V1-stool",
+        "sample-alias": "M5.4-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T17:00:41"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984170/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984170/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984170"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984171",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-04-29",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837332",
+        "longitude": 6.2,
+        "accession": "SRS3984171",
+        "analysis-completed": null,
+        "collection-date": "2013-04-29",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.3-V3-stool",
+        "sample-alias": "M5.3-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T20:30:30"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984171/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984171/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984171"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984172",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-03-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837331",
+        "longitude": 6.2,
+        "accession": "SRS3984172",
+        "analysis-completed": null,
+        "collection-date": "2013-03-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.3-V2-stool",
+        "sample-alias": "M5.3-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T10:07:40"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984172/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984172/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984172"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984173",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-02-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837330",
+        "longitude": 6.2,
+        "accession": "SRS3984173",
+        "analysis-completed": null,
+        "collection-date": "2013-02-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.3-V1-stool",
+        "sample-alias": "M5.3-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T16:21:38"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984173/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984173/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984173"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984174",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-04-29",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837329",
+        "longitude": 6.2,
+        "accession": "SRS3984174",
+        "analysis-completed": null,
+        "collection-date": "2013-04-29",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.2-V3-stool",
+        "sample-alias": "M5.2-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T21:53:42"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984174/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984174/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984174"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984175",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-03-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837328",
+        "longitude": 6.2,
+        "accession": "SRS3984175",
+        "analysis-completed": null,
+        "collection-date": "2013-03-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.2-V2-stool",
+        "sample-alias": "M5.2-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T17:40:50"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984175/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984175/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984175"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984176",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-02-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837327",
+        "longitude": 6.2,
+        "accession": "SRS3984176",
+        "analysis-completed": null,
+        "collection-date": "2013-02-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.2-V1-stool",
+        "sample-alias": "M5.2-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T21:09:42"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984176/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984176/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984176"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984177",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-02-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837326",
+        "longitude": 6.2,
+        "accession": "SRS3984177",
+        "analysis-completed": null,
+        "collection-date": "2013-02-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.1-V1-stool",
+        "sample-alias": "M5.1-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-17T00:27:53"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984177/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984177/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984177"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984178",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-04-29",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837335",
+        "longitude": 6.2,
+        "accession": "SRS3984178",
+        "analysis-completed": null,
+        "collection-date": "2013-04-29",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.4-V3-stool",
+        "sample-alias": "M5.4-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T11:11:40"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984178/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984178/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984178"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984179",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2013-03-25",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837334",
+        "longitude": 6.2,
+        "accession": "SRS3984179",
+        "analysis-completed": null,
+        "collection-date": "2013-03-25",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M5.4-V2-stool",
+        "sample-alias": "M5.4-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T17:21:00"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984179/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984179/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984179"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984180",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-26",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837361",
+        "longitude": 6.2,
+        "accession": "SRS3984180",
+        "analysis-completed": null,
+        "collection-date": "2014-03-26",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.5-V1-stool",
+        "sample-alias": "M11.5-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T15:20:01"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984180/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984180/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984180"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984181",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-05-28",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837360",
+        "longitude": 6.2,
+        "accession": "SRS3984181",
+        "analysis-completed": null,
+        "collection-date": "2014-05-28",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.4-V3-stool",
+        "sample-alias": "M11.4-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T11:01:30"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984181/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984181/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984181"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984182",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-05-28",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837363",
+        "longitude": 6.2,
+        "accession": "SRS3984182",
+        "analysis-completed": null,
+        "collection-date": "2014-05-28",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.5-V3-stool",
+        "sample-alias": "M11.5-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T19:27:04"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984182/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984182/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984182"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984183",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-04-30",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837362",
+        "longitude": 6.2,
+        "accession": "SRS3984183",
+        "analysis-completed": null,
+        "collection-date": "2014-04-30",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.5-V2-stool",
+        "sample-alias": "M11.5-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T12:26:50"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984183/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984183/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984183"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984184",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-04-30",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837357",
+        "longitude": 6.2,
+        "accession": "SRS3984184",
+        "analysis-completed": null,
+        "collection-date": "2014-04-30",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.3-V2-stool",
+        "sample-alias": "M11.3-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T19:33:46"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984184/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984184/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984184"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984185",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-26",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837356",
+        "longitude": 6.2,
+        "accession": "SRS3984185",
+        "analysis-completed": null,
+        "collection-date": "2014-03-26",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.3-V1-stool",
+        "sample-alias": "M11.3-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T20:51:11"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984185/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984185/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984185"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984186",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-04-30",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837359",
+        "longitude": 6.2,
+        "accession": "SRS3984186",
+        "analysis-completed": null,
+        "collection-date": "2014-04-30",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.4-V2-stool",
+        "sample-alias": "M11.4-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T18:09:19"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984186/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984186/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984186"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984187",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-04-30",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837365",
+        "longitude": 6.2,
+        "accession": "SRS3984187",
+        "analysis-completed": null,
+        "collection-date": "2014-04-30",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.6-V2-stool",
+        "sample-alias": "M11.6-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T22:28:43"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984187/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984187/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984187"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984188",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-26",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837358",
+        "longitude": 6.2,
+        "accession": "SRS3984188",
+        "analysis-completed": null,
+        "collection-date": "2014-03-26",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.4-V1-stool",
+        "sample-alias": "M11.4-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T19:38:18"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984188/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984188/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984188"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984189",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-26",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837364",
+        "longitude": 6.2,
+        "accession": "SRS3984189",
+        "analysis-completed": null,
+        "collection-date": "2014-03-26",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.6-V1-stool",
+        "sample-alias": "M11.6-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T14:02:28"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984189/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984189/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984189"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984190",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-04-16",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837352",
+        "longitude": 6.2,
+        "accession": "SRS3984190",
+        "analysis-completed": null,
+        "collection-date": "2014-04-16",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M8.4-V3-stool",
+        "sample-alias": "M8.4-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-17T00:10:17"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984190/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984190/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984190"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984191",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-26",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837353",
+        "longitude": 6.2,
+        "accession": "SRS3984191",
+        "analysis-completed": null,
+        "collection-date": "2014-03-26",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M11.1-V1-stool",
+        "sample-alias": "M11.1-V1-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T07:34:51"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984191/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984191/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984191"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984192",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-19",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837350",
+        "longitude": 6.2,
+        "accession": "SRS3984192",
+        "analysis-completed": null,
+        "collection-date": "2014-03-19",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M8.3-V2-stool",
+        "sample-alias": "M8.3-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T09:56:10"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984192/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984192/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984192"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984193",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-03-19",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "male",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837351",
+        "longitude": 6.2,
+        "accession": "SRS3984193",
+        "analysis-completed": null,
+        "collection-date": "2014-03-19",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M8.4-V2-stool",
+        "sample-alias": "M8.4-V2-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T19:45:24"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984193/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984193/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984193"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "SRS3984194",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-80.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "6.2",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Luxembourg",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2014-04-16",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "human body",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "lower digestive tract",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "feces",
+            "unit": null
+          },
+          {
+            "key": "host taxid",
+            "value": "9606",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "49.5",
+            "unit": null
+          },
+          {
+            "key": "host sex",
+            "value": "female",
+            "unit": null
+          }
+        ],
+        "latitude": 49.5,
+        "biosample": "SAMN09837348",
+        "longitude": 6.2,
+        "accession": "SRS3984194",
+        "analysis-completed": null,
+        "collection-date": "2014-04-16",
+        "geo-loc-name": null,
+        "sample-desc": "This sample has been submitted by pda|maylabel on 2019-03-27; human gut metagenome",
+        "environment-biome": "human body",
+        "environment-feature": "lower digestive tract",
+        "environment-material": "feces",
+        "sample-name": "M8.2-V3-stool",
+        "sample-alias": "M8.2-V3-stool",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2021-10-16T11:52:58"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984194/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001985",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001985"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005360",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005360"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984194/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/SRS3984194"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pages": 6,
+      "count": 129
+    }
+  }
+}

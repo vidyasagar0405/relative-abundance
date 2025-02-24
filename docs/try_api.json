@@ -1,0 +1,4845 @@
+{
+  "links": {
+    "first": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine/samples?experiment_type=metagenomic&metadata_key=temperature&metadata_value_lte=10&ordering=accession&page=1",
+    "last": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine/samples?experiment_type=metagenomic&metadata_key=temperature&metadata_value_lte=10&ordering=accession&page=158",
+    "next": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine/samples?experiment_type=metagenomic&metadata_key=temperature&metadata_value_lte=10&ordering=accession&page=2",
+    "prev": null
+  },
+  "data": [
+    {
+      "type": "samples",
+      "id": "ERS089005",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.49",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "Arctic Winter marine ecosystem",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-123.9108667",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "10-MAR-08",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "Ocean biome ENVO:01000048",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "Ocean ENVO:00000015",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "Ocean water ENVO:00002151",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "water",
+            "unit": null
+          },
+          {
+            "key": "amount or size of sample collected",
+            "value": "11",
+            "unit": "L"
+          },
+          {
+            "key": "sequencing method",
+            "value": "Pyrosequencing",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "65",
+            "unit": "m"
+          },
+          {
+            "key": "elevation",
+            "value": "0",
+            "unit": "m"
+          },
+          {
+            "key": "salinity",
+            "value": "32.51",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "71.03858333",
+            "unit": null
+          },
+          {
+            "key": "total depth of water column",
+            "value": "320",
+            "unit": "m"
+          },
+          {
+            "key": "alt id - submitted sample id",
+            "value": "ArcticWinter",
+            "unit": null
+          },
+          {
+            "key": "GOLD sample classification",
+            "value": "Environmental > Aquatic > Marine > Unclassified > Uncharacterized",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "454 GS",
+            "unit": null
+          }
+        ],
+        "latitude": 71.0386,
+        "biosample": "SAMEA1531548",
+        "longitude": -123.9109,
+        "accession": "ERS089005",
+        "analysis-completed": "2013-03-19",
+        "collection-date": "2008-03-10",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic seawater sample collected on 10 March 2008 under the ice cover at a depth of 65 m. Sample pre-filtered using a 50 μm mesh and filtered onto 0.2  μm polycarbonate filters.  ",
+        "environment-biome": "Ocean biome ENVO:01000048",
+        "environment-feature": "Ocean ENVO:00000015",
+        "environment-material": "Ocean water ENVO:00002151",
+        "sample-name": "Arctic seawater sample collected on 10 March 2008",
+        "sample-alias": "ArcticWinter",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2015-08-13T15:30:55"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS089005/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000297",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000297"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS089005/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS089005"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1289858",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "5.0",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "PETROMAKS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "10.383",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "75",
+            "unit": "m"
+          },
+          {
+            "key": "collection date",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "Marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "Fjord",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "Water",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "water",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "75.0",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "34.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "63.433",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000027",
+            "unit": null
+          },
+          {
+            "key": "sampling site",
+            "value": "TRONDHEIMSFJORD_SINTEF",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "latitude end",
+            "value": "63.433",
+            "unit": "DD"
+          },
+          {
+            "key": "longitude end",
+            "value": "10.383",
+            "unit": "DD"
+          },
+          {
+            "key": "marine region",
+            "value": "Norwegian sea",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "Incubation",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "PETROMAKS_E6",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "Underwater pipeline",
+            "unit": null
+          }
+        ],
+        "latitude": 63.433,
+        "biosample": "SAMEA4378409",
+        "longitude": 10.383,
+        "accession": "ERS1289858",
+        "analysis-completed": "2017-02-22",
+        "collection-date": "2014-07-20",
+        "geo-loc-name": null,
+        "sample-desc": "Incubations of oil accommodated sea-water.",
+        "environment-biome": "Marine biome",
+        "environment-feature": "Fjord",
+        "environment-material": "Water",
+        "sample-name": "E6_16-P1_met",
+        "sample-alias": "E6_16-P1_met",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2024-06-28T19:45:00"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289858/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001538",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001538"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005415",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005415"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289858/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289858"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1289859",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "5.0",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "PETROMAKS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "10.383",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "75",
+            "unit": "m"
+          },
+          {
+            "key": "collection date",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "Marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "Fjord",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "Water",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "water",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "75.0",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "34.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "63.433",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000027",
+            "unit": null
+          },
+          {
+            "key": "sampling site",
+            "value": "TRONDHEIMSFJORD_SINTEF",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "latitude end",
+            "value": "63.433",
+            "unit": "DD"
+          },
+          {
+            "key": "longitude end",
+            "value": "10.383",
+            "unit": "DD"
+          },
+          {
+            "key": "marine region",
+            "value": "Norwegian sea",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "Incubation",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "PETROMAKS_E6",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "Underwater pipeline",
+            "unit": null
+          }
+        ],
+        "latitude": 63.433,
+        "biosample": "SAMEA4378410",
+        "longitude": 10.383,
+        "accession": "ERS1289859",
+        "analysis-completed": "2017-02-22",
+        "collection-date": "2014-07-20",
+        "geo-loc-name": null,
+        "sample-desc": "Incubations of oil accommodated sea-water.",
+        "environment-biome": "Marine biome",
+        "environment-feature": "Fjord",
+        "environment-material": "Water",
+        "sample-name": "E6_0-BL_met",
+        "sample-alias": "E6_0-BL_met",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2024-06-28T19:46:13"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289859/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001538",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001538"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005415",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005415"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289859/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289859"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1289860",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "5.0",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "PETROMAKS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "10.383",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "75",
+            "unit": "m"
+          },
+          {
+            "key": "collection date",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "Marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "Fjord",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "Water",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "water",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "75.0",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "34.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "63.433",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000027",
+            "unit": null
+          },
+          {
+            "key": "sampling site",
+            "value": "TRONDHEIMSFJORD_SINTEF",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "latitude end",
+            "value": "63.433",
+            "unit": "DD"
+          },
+          {
+            "key": "longitude end",
+            "value": "10.383",
+            "unit": "DD"
+          },
+          {
+            "key": "marine region",
+            "value": "Norwegian sea",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "Incubation",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "PETROMAKS_E6",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "Underwater pipeline",
+            "unit": null
+          }
+        ],
+        "latitude": 63.433,
+        "biosample": "SAMEA4378411",
+        "longitude": 10.383,
+        "accession": "ERS1289860",
+        "analysis-completed": "2017-02-22",
+        "collection-date": "2014-07-20",
+        "geo-loc-name": null,
+        "sample-desc": "Incubations of oil accommodated sea-water.",
+        "environment-biome": "Marine biome",
+        "environment-feature": "Fjord",
+        "environment-material": "Water",
+        "sample-name": "E6_9-P1_met",
+        "sample-alias": "E6_9-P1_met",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2024-06-28T19:40:55"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289860/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001538",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001538"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005415",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005415"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289860/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289860"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1289861",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "5.0",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "PETROMAKS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "10.383",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "75",
+            "unit": "m"
+          },
+          {
+            "key": "collection date",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "Marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "Fjord",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "Water",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "water",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "75.0",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "34.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "63.433",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000027",
+            "unit": null
+          },
+          {
+            "key": "sampling site",
+            "value": "TRONDHEIMSFJORD_SINTEF",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "latitude end",
+            "value": "63.433",
+            "unit": "DD"
+          },
+          {
+            "key": "longitude end",
+            "value": "10.383",
+            "unit": "DD"
+          },
+          {
+            "key": "marine region",
+            "value": "Norwegian sea",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "Incubation",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "PETROMAKS_E6",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "Underwater pipeline",
+            "unit": null
+          }
+        ],
+        "latitude": 63.433,
+        "biosample": "SAMEA4378412",
+        "longitude": 10.383,
+        "accession": "ERS1289861",
+        "analysis-completed": "2017-02-22",
+        "collection-date": "2014-07-20",
+        "geo-loc-name": null,
+        "sample-desc": "Incubations of oil accommodated sea-water.",
+        "environment-biome": "Marine biome",
+        "environment-feature": "Fjord",
+        "environment-material": "Water",
+        "sample-name": "E6_64-BL_met",
+        "sample-alias": "E6_64-BL_met",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2024-06-28T19:42:41"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289861/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001538",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001538"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005415",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005415"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289861/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289861"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1289862",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "5.0",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "PETROMAKS",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "10.383",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "75",
+            "unit": "m"
+          },
+          {
+            "key": "collection date",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "Marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "Fjord",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "Water",
+            "unit": null
+          },
+          {
+            "key": "environmental package",
+            "value": "water",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "75.0",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "34.0",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "63.433",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000027",
+            "unit": null
+          },
+          {
+            "key": "sampling site",
+            "value": "TRONDHEIMSFJORD_SINTEF",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "2014-07-20T08:00:00Z/2014-07-20T09:00:00Z",
+            "unit": null
+          },
+          {
+            "key": "latitude end",
+            "value": "63.433",
+            "unit": "DD"
+          },
+          {
+            "key": "longitude end",
+            "value": "10.383",
+            "unit": "DD"
+          },
+          {
+            "key": "marine region",
+            "value": "Norwegian sea",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "Incubation",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "PETROMAKS_E6",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "Underwater pipeline",
+            "unit": null
+          }
+        ],
+        "latitude": 63.433,
+        "biosample": "SAMEA4378413",
+        "longitude": 10.383,
+        "accession": "ERS1289862",
+        "analysis-completed": "2017-02-22",
+        "collection-date": "2014-07-20",
+        "geo-loc-name": null,
+        "sample-desc": "Incubations of oil accommodated sea-water.",
+        "environment-biome": "Marine biome",
+        "environment-feature": "Fjord",
+        "environment-material": "Water",
+        "sample-name": "E6_31-P1_met",
+        "sample-alias": "E6_31-P1_met",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2024-06-28T19:43:51"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic:Oil-contaminated"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289862/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00001538",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00001538"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00005415",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005415"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289862/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1289862"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568962",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.17",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-176.76143",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.9",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-04",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.9",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "19.297577",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "88.4072",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42251",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6210",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "31",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 88.4072,
+        "biosample": "SAMEA98135668",
+        "longitude": -176.7614,
+        "accession": "ERS1568962",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-04",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.9 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD006_S11_87",
+        "sample-alias": "KD006_S11_87",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T13:52:36"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568962/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568962/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568962"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568962",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.17",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-176.76143",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.9",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-04",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.9",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "19.297577",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "88.4072",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42251",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6210",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "31",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 88.4072,
+        "biosample": "SAMEA98135668",
+        "longitude": -176.7614,
+        "accession": "ERS1568962",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-04",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.9 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD006_S11_87",
+        "sample-alias": "KD006_S11_87",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T13:52:36"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568962/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568962/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568962"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568963",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.35",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-176.76143",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-21",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "21.911968",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "88.4072",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42251",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6210",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "31",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 88.4072,
+        "biosample": "SAMEA98136418",
+        "longitude": -176.7614,
+        "accession": "ERS1568963",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-21",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.1 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD008_S1_4",
+        "sample-alias": "KD008_S1_4",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:54:44"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568963/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568963/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568963"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568963",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.35",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-176.76143",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-21",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "21.911968",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "88.4072",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42251",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6210",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "31",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 88.4072,
+        "biosample": "SAMEA98136418",
+        "longitude": -176.7614,
+        "accession": "ERS1568963",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-21",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.1 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD008_S1_4",
+        "sample-alias": "KD008_S1_4",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:54:44"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568963/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568963/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568963"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568964",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.655",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-176.76143",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-04",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "28.2805",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "88.4072",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42251",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6210",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "31",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 88.4072,
+        "biosample": "SAMEA98137168",
+        "longitude": -176.7614,
+        "accession": "ERS1568964",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-04",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.3 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD010_S2_6",
+        "sample-alias": "KD010_S2_6",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:32:23"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568964/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568964/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568964"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568964",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.655",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-176.76143",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-04",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "28.2805",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "88.4072",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42251",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6210",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "31",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 88.4072,
+        "biosample": "SAMEA98137168",
+        "longitude": -176.7614,
+        "accession": "ERS1568964",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-04",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.3 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD010_S2_6",
+        "sample-alias": "KD010_S2_6",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:32:23"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568964/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568964/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568964"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568965",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.37",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-89.2525",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.32",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-07",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.32",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "27.90662",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "89.99033",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42254",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6239",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "33",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 89.9903,
+        "biosample": "SAMEA98137918",
+        "longitude": -89.2525,
+        "accession": "ERS1568965",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-07",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.32 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD017_S12_85B",
+        "sample-alias": "KD017_S12_85B",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T12:00:51"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568965/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568965/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568965"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568965",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.37",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-89.2525",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.32",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-07",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.32",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "27.90662",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "89.99033",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42254",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6239",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "33",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 89.9903,
+        "biosample": "SAMEA98137918",
+        "longitude": -89.2525,
+        "accession": "ERS1568965",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-07",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.32 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD017_S12_85B",
+        "sample-alias": "KD017_S12_85B",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T12:00:51"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568965/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568965/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568965"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568966",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-0.7375",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.7",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.7",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "12.69851",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98138668",
+        "longitude": -148.8943,
+        "accession": "ERS1568966",
+        "analysis-completed": "2017-03-13",
+        "collection-date": null,
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.7 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD028_S10_83",
+        "sample-alias": "KD028_S10_83",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-10-19T18:44:50"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568966/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568966/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568966"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568966",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-0.7375",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.7",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.7",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "12.69851",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98138668",
+        "longitude": -148.8943,
+        "accession": "ERS1568966",
+        "analysis-completed": "2017-03-13",
+        "collection-date": null,
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.7 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD028_S10_83",
+        "sample-alias": "KD028_S10_83",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-10-19T18:44:50"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568966/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568966/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568966"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568967",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.1625",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "21.051138",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98139418",
+        "longitude": -148.8943,
+        "accession": "ERS1568967",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.3 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD029_S10_82",
+        "sample-alias": "KD029_S10_82",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:42:37"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568967/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568967/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568967"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568967",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.1625",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.3",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "21.051138",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98139418",
+        "longitude": -148.8943,
+        "accession": "ERS1568967",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.3 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD029_S10_82",
+        "sample-alias": "KD029_S10_82",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:42:37"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568967/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568967/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568967"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568968",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-0.55",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.5",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.5",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "10.201953",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98140168",
+        "longitude": -148.8943,
+        "accession": "ERS1568968",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.5 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD030_S9_81",
+        "sample-alias": "KD030_S9_81",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:03:39"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568968/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568968/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568968"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568968",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-0.55",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.5",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.5",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "10.201953",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98140168",
+        "longitude": -148.8943,
+        "accession": "ERS1568968",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.5 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD030_S9_81",
+        "sample-alias": "KD030_S9_81",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T14:03:39"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568968/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568968/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568968"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568969",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-0.6",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.3",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.3",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "11.431408",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98140918",
+        "longitude": -148.8943,
+        "accession": "ERS1568969",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.3 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD031_S8_80",
+        "sample-alias": "KD031_S8_80",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T12:45:45"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568969/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568969/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568969"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568969",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-0.6",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "0.3",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "0.3",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "11.431408",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98140918",
+        "longitude": -148.8943,
+        "accession": "ERS1568969",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 0.3 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD031_S8_80",
+        "sample-alias": "KD031_S8_80",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T12:45:45"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568969/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568969/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568969"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568970",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.0825",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "19.456572",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98141668",
+        "longitude": -148.8943,
+        "accession": "ERS1568970",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.1 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD032_S7_79",
+        "sample-alias": "KD032_S7_79",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T16:51:14"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568970/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568970/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568970"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568970",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.0825",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.1",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "19.456572",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98141668",
+        "longitude": -148.8943,
+        "accession": "ERS1568970",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.1 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD032_S7_79",
+        "sample-alias": "KD032_S7_79",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-03-29T16:51:14"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568970/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568970/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568970"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS1568971",
+      "attributes": {
+        "sample-metadata": [
+          {
+            "key": "temperature",
+            "value": "-1.3625",
+            "unit": null
+          },
+          {
+            "key": "project name",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "geographic location (longitude)",
+            "value": "-148.89433",
+            "unit": null
+          },
+          {
+            "key": "geographic location (depth)",
+            "value": "1.5",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "collection date",
+            "value": "2015-09-11",
+            "unit": null
+          },
+          {
+            "key": "environment (biome)",
+            "value": "marine biome",
+            "unit": null
+          },
+          {
+            "key": "environment (feature)",
+            "value": "marine water body",
+            "unit": null
+          },
+          {
+            "key": "environment (material)",
+            "value": "sea ice",
+            "unit": null
+          },
+          {
+            "key": "sequencing method",
+            "value": "Illumina MiSeq 2x250 PE",
+            "unit": null
+          },
+          {
+            "key": "depth",
+            "value": "1.5",
+            "unit": null
+          },
+          {
+            "key": "salinity",
+            "value": "24.39585",
+            "unit": null
+          },
+          {
+            "key": "geographic location (latitude)",
+            "value": "87.77202",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408172",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina MiSeq",
+            "unit": null
+          },
+          {
+            "key": "ENA checklist",
+            "value": "ERC000011",
+            "unit": null
+          },
+          {
+            "key": "event date/time",
+            "value": "42258",
+            "unit": null
+          },
+          {
+            "key": "marine region",
+            "value": "Arctic Ocean",
+            "unit": null
+          },
+          {
+            "key": "protocol label",
+            "value": "NPL022",
+            "unit": null
+          },
+          {
+            "key": "sampling campaign",
+            "value": "GEOTRACES ARCTIC 2015",
+            "unit": null
+          },
+          {
+            "key": "sampling platform",
+            "value": "CGC Healy",
+            "unit": null
+          },
+          {
+            "key": "event label",
+            "value": "6270",
+            "unit": null
+          },
+          {
+            "key": "last update date",
+            "value": "42788",
+            "unit": null
+          },
+          {
+            "key": "sample collection device",
+            "value": "ice auger",
+            "unit": null
+          },
+          {
+            "key": "sampling station",
+            "value": "39",
+            "unit": null
+          },
+          {
+            "key": "size fraction lower threshold",
+            "value": "0.22 um",
+            "unit": null
+          },
+          {
+            "key": "size fraction upper threshold",
+            "value": "none",
+            "unit": null
+          }
+        ],
+        "latitude": 87.772,
+        "biosample": "SAMEA98142418",
+        "longitude": -148.8943,
+        "accession": "ERS1568971",
+        "analysis-completed": "2017-03-13",
+        "collection-date": "2015-09-11",
+        "geo-loc-name": "Arctic Ocean",
+        "sample-desc": "Arctic sea ice metagenome, 1.5 m",
+        "environment-biome": "marine biome",
+        "environment-feature": "marine water body",
+        "environment-material": "sea ice",
+        "sample-name": "KD033_S8_75",
+        "sample-alias": "KD033_S8_75",
+        "host-tax-id": null,
+        "species": null,
+        "last-update": "2021-10-19T18:52:33"
+      },
+      "relationships": {
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Environmental:Aquatic:Marine:Oceanic"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Environmental:Aquatic:Marine:Oceanic"
+          }
+        },
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568971/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000991",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000991"
+              }
+            },
+            {
+              "type": "studies",
+              "id": "MGYS00002040",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00002040"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568971/runs"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS1568971"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pages": 158,
+      "count": 3933
+    }
+  }
+}

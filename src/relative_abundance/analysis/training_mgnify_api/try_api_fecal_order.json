@@ -1,0 +1,2067 @@
+{
+  "links": {
+    "first": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&ordering=accession&page=1",
+    "last": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&ordering=accession&page=214",
+    "next": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal/samples?experiment_type=metagenomic&ordering=accession&page=2",
+    "prev": null
+  },
+  "data": [
+    {
+      "type": "samples",
+      "id": "ERS006485",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "25",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728649",
+        "longitude": null,
+        "accession": "ERS006485",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Spain",
+        "sample-desc": "bgi-V1.UC-15",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-V1.UC-15",
+        "sample-alias": "bgi-V1.UC-15",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006485/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006485/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006485"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006486",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728607",
+        "longitude": null,
+        "accession": "ERS006486",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0078",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0078",
+        "sample-alias": "bgi-MH0078",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006486/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006486/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006486"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006487",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "64",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728602",
+        "longitude": null,
+        "accession": "ERS006487",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0072",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0072",
+        "sample-alias": "bgi-MH0072",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:05"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006487/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006487/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006487"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006488",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728950",
+        "longitude": null,
+        "accession": "ERS006488",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0025",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0025",
+        "sample-alias": "bgi-MH0025",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:05"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006488/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006488/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006488"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006489",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728946",
+        "longitude": null,
+        "accession": "ERS006489",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0035",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0035",
+        "sample-alias": "bgi-MH0035",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:05"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006489/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006489/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006489"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006490",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "69",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728685",
+        "longitude": null,
+        "accession": "ERS006490",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0031",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0031",
+        "sample-alias": "bgi-MH0031",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:05"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006490/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006490/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006490"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006491",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "64",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728690",
+        "longitude": null,
+        "accession": "ERS006491",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0009",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0009",
+        "sample-alias": "bgi-MH0009",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006491/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006491/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006491"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006492",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "32",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728899",
+        "longitude": null,
+        "accession": "ERS006492",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Spain",
+        "sample-desc": "bgi-V1.UC-9",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-V1.UC-9",
+        "sample-alias": "bgi-V1.UC-9",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006492/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006492/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006492"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006493",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "64",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728902",
+        "longitude": null,
+        "accession": "ERS006493",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0075",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0075",
+        "sample-alias": "bgi-MH0075",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006493/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006493/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006493"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006494",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "42",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728672",
+        "longitude": null,
+        "accession": "ERS006494",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0012",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0012",
+        "sample-alias": "bgi-MH0012",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006494/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006494/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006494"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006495",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728674",
+        "longitude": null,
+        "accession": "ERS006495",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0053",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0053",
+        "sample-alias": "bgi-MH0053",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006495/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006495/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006495"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006496",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728676",
+        "longitude": null,
+        "accession": "ERS006496",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0077",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0077",
+        "sample-alias": "bgi-MH0077",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006496/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006496/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006496"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006497",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "59",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728680",
+        "longitude": null,
+        "accession": "ERS006497",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0006",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0006",
+        "sample-alias": "bgi-MH0006",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006497/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006497/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006497"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006499",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728839",
+        "longitude": null,
+        "accession": "ERS006499",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0021",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0021",
+        "sample-alias": "bgi-MH0021",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006499/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006499/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006499"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006500",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728881",
+        "longitude": null,
+        "accession": "ERS006500",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0052",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0052",
+        "sample-alias": "bgi-MH0052",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006500/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006500/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006500"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006501",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "54",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728884",
+        "longitude": null,
+        "accession": "ERS006501",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0048",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0048",
+        "sample-alias": "bgi-MH0048",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006501/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006501/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006501"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006502",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "44",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728876",
+        "longitude": null,
+        "accession": "ERS006502",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Spain",
+        "sample-desc": "bgi-O2.UC-23",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-O2.UC-23",
+        "sample-alias": "bgi-O2.UC-23",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006502/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006502/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006502"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006504",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "69",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728905",
+        "longitude": null,
+        "accession": "ERS006504",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0032",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0032",
+        "sample-alias": "bgi-MH0032",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006504/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006504/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006504"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006506",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "69",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728887",
+        "longitude": null,
+        "accession": "ERS006506",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0061",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0061",
+        "sample-alias": "bgi-MH0061",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006506/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006506/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006506"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006507",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "59",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728890",
+        "longitude": null,
+        "accession": "ERS006507",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0045",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0045",
+        "sample-alias": "bgi-MH0045",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006507/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006507/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006507"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006508",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "49",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728870",
+        "longitude": null,
+        "accession": "ERS006508",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0062",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0062",
+        "sample-alias": "bgi-MH0062",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006508/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006508/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006508"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006509",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "57",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728873",
+        "longitude": null,
+        "accession": "ERS006509",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Spain",
+        "sample-desc": "bgi-O2.UC-4",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-O2.UC-4",
+        "sample-alias": "bgi-O2.UC-4",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006509/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006509/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006509"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006510",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "19",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728894",
+        "longitude": null,
+        "accession": "ERS006510",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Spain",
+        "sample-desc": "bgi-V1.UC-7",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-V1.UC-7",
+        "sample-alias": "bgi-V1.UC-7",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006510/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006510/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006510"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006511",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "female",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Denmark",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "59",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728808",
+        "longitude": null,
+        "accession": "ERS006511",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Denmark",
+        "sample-desc": "bgi-MH0085",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-MH0085",
+        "sample-alias": "bgi-MH0085",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006511/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006511/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006511"
+      }
+    },
+    {
+      "type": "samples",
+      "id": "ERS006512",
+      "attributes": {
+        "latitude": null,
+        "sample-metadata": [
+          {
+            "key": "sex",
+            "value": "male",
+            "unit": null
+          },
+          {
+            "key": "geographic location (country and/or sea,region)",
+            "value": "Spain",
+            "unit": null
+          },
+          {
+            "key": "age",
+            "value": "42",
+            "unit": null
+          },
+          {
+            "key": "NCBI sample classification",
+            "value": "408170",
+            "unit": null
+          },
+          {
+            "key": "instrument model",
+            "value": "Illumina Genome Analyzer II",
+            "unit": null
+          }
+        ],
+        "biosample": "SAMEA728817",
+        "longitude": null,
+        "accession": "ERS006512",
+        "analysis-completed": "2015-04-02",
+        "collection-date": null,
+        "geo-loc-name": "Spain",
+        "sample-desc": "bgi-O2.UC-19",
+        "environment-biome": "host-associated biome",
+        "environment-feature": "host-associated habitat",
+        "environment-material": "faeces",
+        "sample-name": "bgi-O2.UC-19",
+        "sample-alias": "bgi-O2.UC-19",
+        "host-tax-id": 9606,
+        "species": "Homo sapiens",
+        "last-update": "2015-08-13T15:31:06"
+      },
+      "relationships": {
+        "studies": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006512/studies"
+          },
+          "data": [
+            {
+              "type": "studies",
+              "id": "MGYS00000467",
+              "links": {
+                "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00000467"
+              }
+            }
+          ]
+        },
+        "runs": {
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006512/runs"
+          }
+        },
+        "biome": {
+          "data": {
+            "type": "biomes",
+            "id": "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes/root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/samples/ERS006512"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pages": 214,
+      "count": 5342
+    }
+  }
+}

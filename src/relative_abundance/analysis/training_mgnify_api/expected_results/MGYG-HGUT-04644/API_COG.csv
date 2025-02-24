@@ -1,0 +1,22 @@
+name,description,genome-count,pangenome-count
+S,Function unknown,375,1126
+K,Transcription,179,580
+E,Amino acid transport and metabolism,156,272
+J,Translation,126,227
+C,Energy production and conversion,102,214
+P,Inorganic ion transport and metabolism,101,228
+L,Replication,98,456
+M,Cell wall/membrane/envelope biogenesis,84,242
+H,Coenzyme transport and metabolism,73,124
+G,Carbohydrate transport and metabolism,64,176
+V,Defense mechanisms,63,186
+F,Nucleotide transport and metabolism,59,103
+T,Signal transduction mechanisms,47,119
+O,Post-translational modification,45,94
+I,Lipid transport and metabolism,43,69
+D,Cell cycle control,31,95
+Q,Secondary metabolites biosynthesis,23,42
+U,Intracellular trafficking,20,76
+N,Cell motility,4,17
+W,Extracellular structures,1,1
+Z,Cytoskeleton,1,1

@@ -1,0 +1,33 @@
+{
+  "data": {
+    "biomes": "https://www.ebi.ac.uk/metagenomics/api/v1/biomes",
+    "studies": "https://www.ebi.ac.uk/metagenomics/api/v1/studies",
+    "super-studies": "https://www.ebi.ac.uk/metagenomics/api/v1/super-studies",
+    "samples": "https://www.ebi.ac.uk/metagenomics/api/v1/samples",
+    "runs": "https://www.ebi.ac.uk/metagenomics/api/v1/runs",
+    "assemblies": "https://www.ebi.ac.uk/metagenomics/api/v1/assemblies",
+    "analyses": "https://www.ebi.ac.uk/metagenomics/api/v1/analyses",
+    "experiment-types": "https://www.ebi.ac.uk/metagenomics/api/v1/experiment-types",
+    "pipelines": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines",
+    "pipeline-tools": "https://www.ebi.ac.uk/metagenomics/api/v1/pipeline-tools",
+    "publications": "https://www.ebi.ac.uk/metagenomics/api/v1/publications",
+    "genomes": "https://www.ebi.ac.uk/metagenomics/api/v1/genomes",
+    "genome-search": "https://www.ebi.ac.uk/metagenomics/api/v1/genome-search",
+    "genomes-search/gather": "https://www.ebi.ac.uk/metagenomics/api/v1/genomes-search/gather",
+    "genome-catalogues": "https://www.ebi.ac.uk/metagenomics/api/v1/genome-catalogues",
+    "genomeset": "https://www.ebi.ac.uk/metagenomics/api/v1/genomeset",
+    "cogs": "https://www.ebi.ac.uk/metagenomics/api/v1/cogs",
+    "kegg-modules": "https://www.ebi.ac.uk/metagenomics/api/v1/kegg-modules",
+    "kegg-classes": "https://www.ebi.ac.uk/metagenomics/api/v1/kegg-classes",
+    "antismash-geneclusters": "https://www.ebi.ac.uk/metagenomics/api/v1/antismash-geneclusters",
+    "annotations/go-terms": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/go-terms",
+    "annotations/interpro-identifiers": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/interpro-identifiers",
+    "annotations/kegg-modules": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/kegg-modules",
+    "annotations/pfam-entries": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/pfam-entries",
+    "annotations/kegg-orthologs": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/kegg-orthologs",
+    "annotations/genome-properties": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/genome-properties",
+    "annotations/antismash-gene-clusters": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/antismash-gene-clusters",
+    "annotations/organisms": "https://www.ebi.ac.uk/metagenomics/api/v1/annotations/organisms",
+    "mydata": "https://www.ebi.ac.uk/metagenomics/api/v1/mydata"
+  }
+}
