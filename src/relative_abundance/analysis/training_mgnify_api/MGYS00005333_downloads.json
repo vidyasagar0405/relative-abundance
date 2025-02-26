@@ -1,0 +1,507 @@
+{
+  "links": {
+    "first": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/downloads?page=1",
+    "last": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/downloads?page=1",
+    "next": null,
+    "prev": null
+  },
+  "data": [
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_GO-slim_abundances_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_GO-slim_abundances_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "GO slim annotation",
+          "description": "GO slim annotation"
+        },
+        "group-type": "Functional analysis",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_GO-slim_abundances_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_GO_abundances_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_GO_abundances_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Complete GO annotation",
+          "description": "Complete GO annotation"
+        },
+        "group-type": "Functional analysis",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_GO_abundances_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_IPR_abundances_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_IPR_abundances_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "InterPro matches",
+          "description": "InterPro matches (TSV)"
+        },
+        "group-type": "Functional analysis",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_IPR_abundances_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_phylum_taxonomy_abundances_SSU_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_phylum_taxonomy_abundances_SSU_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Phylum level taxonomies SSU",
+          "description": "Phylum level taxonomies SSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis SSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_phylum_taxonomy_abundances_SSU_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_taxonomy_abundances_SSU_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_taxonomy_abundances_SSU_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Taxonomic assignments SSU",
+          "description": "Taxonomic assignments SSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis SSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_taxonomy_abundances_SSU_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_phylum_taxonomy_abundances_LSU_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_phylum_taxonomy_abundances_LSU_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Phylum level taxonomies LSU",
+          "description": "Phylum level taxonomies LSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis LSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_phylum_taxonomy_abundances_LSU_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_taxonomy_abundances_LSU_v4.1.tsv",
+      "attributes": {
+        "alias": "ERP108859_taxonomy_abundances_LSU_v4.1.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Taxonomic assignments LSU",
+          "description": "Taxonomic assignments LSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis LSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "4.1"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/4.1"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/4.1/file/ERP108859_taxonomy_abundances_LSU_v4.1.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_GO-slim_abundances_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_GO-slim_abundances_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "GO slim annotation",
+          "description": "GO slim annotation"
+        },
+        "group-type": "Functional analysis",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_GO-slim_abundances_v5.0.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_GO_abundances_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_GO_abundances_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Complete GO annotation",
+          "description": "Complete GO annotation"
+        },
+        "group-type": "Functional analysis",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_GO_abundances_v5.0.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_IPR_abundances_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_IPR_abundances_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "InterPro matches",
+          "description": "InterPro matches (TSV)"
+        },
+        "group-type": "Functional analysis",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_IPR_abundances_v5.0.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_phylum_taxonomy_abundances_SSU_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_phylum_taxonomy_abundances_SSU_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Phylum level taxonomies SSU",
+          "description": "Phylum level taxonomies SSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis SSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_phylum_taxonomy_abundances_SSU_v5.0.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_taxonomy_abundances_SSU_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_taxonomy_abundances_SSU_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Taxonomic assignments SSU",
+          "description": "Taxonomic assignments SSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis SSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_taxonomy_abundances_SSU_v5.0.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_phylum_taxonomy_abundances_LSU_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_phylum_taxonomy_abundances_LSU_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Phylum level taxonomies LSU",
+          "description": "Phylum level taxonomies LSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis LSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_phylum_taxonomy_abundances_LSU_v5.0.tsv"
+      }
+    },
+    {
+      "type": "study-downloads",
+      "id": "ERP108859_taxonomy_abundances_LSU_v5.0.tsv",
+      "attributes": {
+        "alias": "ERP108859_taxonomy_abundances_LSU_v5.0.tsv",
+        "file-format": {
+          "name": "TSV",
+          "extension": "tsv",
+          "compression": false
+        },
+        "description": {
+          "label": "Taxonomic assignments LSU",
+          "description": "Taxonomic assignments LSU (TSV)"
+        },
+        "group-type": "Taxonomic analysis LSU rRNA",
+        "file-checksum": {
+          "checksum": "",
+          "checksum-algorithm": ""
+        }
+      },
+      "relationships": {
+        "pipeline": {
+          "data": {
+            "type": "pipelines",
+            "id": "5.0"
+          },
+          "links": {
+            "related": "https://www.ebi.ac.uk/metagenomics/api/v1/pipelines/5.0"
+          }
+        }
+      },
+      "links": {
+        "self": "https://www.ebi.ac.uk/metagenomics/api/v1/studies/MGYS00005333/pipelines/5.0/file/ERP108859_taxonomy_abundances_LSU_v5.0.tsv"
+      }
+    }
+  ],
+  "meta": {
+    "pagination": {
+      "page": 1,
+      "pages": 1,
+      "count": 14
+    }
+  }
+}
