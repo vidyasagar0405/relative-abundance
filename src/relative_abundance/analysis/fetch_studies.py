@@ -1,45 +1,82 @@
-from jsonapi_client import Session
-import pandas as pd
-import matplotlib.pyplot as plt
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-accession = "MGYS00002236"
-accessions = ["MGYS00002236", "MGYS00006219"]
-base_url = "https://www.ebi.ac.uk/metagenomics/api/latest"
-downloads = f"/studies/{accession}/downloads"
-biome = "root:Host-associated:Human:Digestive%20system:Large%20intestine:Fecal"
+import argparse
+import csv
+import sys
+from urllib.parse import urlencode
 
+from jsonapi_client import Filter, Session
 
-link = f"https://www.ebi.ac.uk/metagenomics/api/latest/biomes/{biome}/studies?experiment_type=metagenomic&ordering=accession"
+API_BASE = "https://www.ebi.ac.uk/metagenomics/api/v1"
+FILE_NAME = "exercise1-lite.csv"
+biome = "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
+experiment_type = "amplicon"
 
-def fetch_analyses(biome, base_url=base_url):
-    with Session(base_url) as mgnify:
-        analyses_list = []
-        for response in mgnify.iterate(f'biomes/{biome}/studies?experiment_type=metagenomic&ordering=accession"'):
-            try:
-                # Attempt to get the JSON from the response
-                data = response.json
-                analyses_list.append(data)
-            except Exception as e:
-                print("Error decoding JSON for a response:")
-                print(response.text)  # Log the raw response for debugging
-                raise e
-        # Normalize the collected JSON objects into a DataFrame
-        analyses_df = pd.json_normalize(analyses_list)
-    return analyses_df
+print("Starting...")
 
-def main():
+with open(FILE_NAME, "w") as csvfile:
+    # CSV initialization
+    fieldnames = [
+        "id",
+        "sample-count",
+        "bioproject",
+        "secondary-accession",
+        "study-abstract",
+        "study-name",
+        "samples",
+        # "downloads",
+        # "analyses",
+    ]
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
 
-    try:
-        df = fetch_analyses(biome)
-        print(df.head())
-    except Exception as error:
-        print(f"Failed to fetch analyses: {error}")
+    # API call
+    with Session(API_BASE) as session:
+        # configure the filters
+        params = {
+            # 'accession': '',
+            "experiment_type": experiment_type,
+            # 'biome_name': '',
+            "lineage": biome,
+            # 'geo_loc_name': '',
+            # 'latitude_gte': '',
+            # 'latitude_lte': '',
+            # 'longitude_gte': '',
+            # 'longitude_lte': '',
+            # 'species': '',
+            # 'instrument_model': '',
+            # 'instrument_platform': '',
+            # 'metadata_key': '',
+            # 'metadata_value_gte': '',
+            # 'metadata_value_lte': '',
+            # 'metadata_value': '',
+            # 'environment_material': '',
+            # 'environment_feature': '',
+            # 'study_accession': '',
+            # 'include': '',
+            # 'format': 'csv'
+        }
 
-    df.to_csv(f"{biome}.csv")
-    df.groupby('attributes.samples-count').plot(kind='bar')
-    plt.title('Number of Analysed Samples by instrument type')
-    plt.savefig(f"Number_of_Analysed_Samples_in_{biome}_bar.svg")
+        api_filter = Filter(urlencode(params))
 
+        total = 0
 
-if __name__ == "__main__":
-    main()
+        # sessions.iterate will take care of the pagination for us
+        for sample in session.iterate("studies", api_filter):
+            total += 1
+            print(f"page: {total} ...")
+            rows = {
+                "id": sample.id,
+                "sample-count": sample.samples_count,
+                "bioproject": sample.bioproject,
+                "secondary-accession": sample.secondary_accession,
+                "study-abstract": sample.study_abstract,
+                "study-name": sample.study_name,
+                "samples": ",".join([study.accession for study in sample.samples]),
+                # "downloads": sample.downloads,
+                # "analyses": sample.analyses,
+            }
+            writer.writerow(rows)
+
+        print("Data retrieved from the API")
