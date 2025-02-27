@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE RecordSet>
+<RecordSet>
+  <DocumentSummary uid="496886">
+    <Project>
+      <ProjectID>
+        <ArchiveID accession="PRJEB26832" archive="EBI" id="496886"/>
+        <CenterID center="EBI" id="0">ERP108859</CenterID>
+        <LocalID submission_id="Gut microbial dysbiosis in young adults with obesity metagenomic assembly (assembled from PRJEB12123, internal_id: 7cf0d74f-cbce-4e43-a34d-a2f0d79996b2)">EMG</LocalID>
+      </ProjectID>
+      <ProjectDescr>
+        <Title>EMG produced TPA metagenomics assembly of the Gut microbial dysbiosis in young adults with obesity (Gut microbial dysbiosis in young adults with obesity) data set.</Title>
+        <Description>The Gut microbial dysbiosis in young adults with obesity Third Party Annotation (TPA) assembly was derived from the primary whole genome shotgun (WGS) data set: PRJEB12123. This project includes samples from the following biomes: Host-associated, Human, Digestive system, Large intestine, Fecal.</Description>
+        <Publication date="2018-01-04T00:00:00Z" id="29069476" status="ePublished">
+          <StructuredCitation>
+            <Title>EBI Metagenomics in 2017: enriching the analysis of microbial communities, from sequence reads to assemblies.</Title>
+            <Journal>
+              <JournalTitle>Nucleic acids research</JournalTitle>
+              <Year>2018</Year>
+              <Volume>46</Volume>
+              <Issue>D1</Issue>
+              <PagesFrom>D726</PagesFrom>
+              <PagesTo>D735</PagesTo>
+            </Journal>
+            <AuthorSet>
+              <Author>
+                <Name>
+                  <First>Alex L</First>
+                  <Last>Mitchell</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Maxim</First>
+                  <Last>Scheremetjew</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Hubert</First>
+                  <Last>Denise</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Simon</First>
+                  <Last>Potter</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Aleksandra</First>
+                  <Last>Tarkowska</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Matloob</First>
+                  <Last>Qureshi</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Gustavo A</First>
+                  <Last>Salazar</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Sebastien</First>
+                  <Last>Pesseat</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Miguel A</First>
+                  <Last>Boland</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Fiona M I</First>
+                  <Last>Hunter</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Petra</First>
+                  <Last>Ten Hoopen</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Blaise</First>
+                  <Last>Alako</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Clara</First>
+                  <Last>Amid</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Darren J</First>
+                  <Last>Wilkinson</Last>
+                </Name>
+                <Consortium>School of Mathematics &amp; Statistics, Newcastle University, Newcastle upon Tyne NE1 7RU, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Thomas P</First>
+                  <Last>Curtis</Last>
+                </Name>
+                <Consortium>School of Civil Engineering and Geosciences, Newcastle University, Newcastle upon Tyne NE1 7RU, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Guy</First>
+                  <Last>Cochrane</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+              <Author>
+                <Name>
+                  <First>Robert D</First>
+                  <Last>Finn</Last>
+                </Name>
+                <Consortium>EMBL-EBI European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK.</Consortium>
+              </Author>
+            </AuthorSet>
+          </StructuredCitation>
+          <DbType>ePubmed</DbType>
+        </Publication>
+        <Keyword>TPA:assembly</Keyword>
+      </ProjectDescr>
+      <ProjectType>
+        <ProjectTypeSubmission>
+          <Target capture="eWhole" material="eGenome" sample_scope="eMonoisolate"/>
+          <Method method_type="eSequencing"/>
+          <Objectives>
+            <Data data_type="eOther">Unspecified Objective</Data>
+          </Objectives>
+          <ProjectDataTypeSet>
+            <DataType>Genome sequencing</DataType>
+          </ProjectDataTypeSet>
+        </ProjectTypeSubmission>
+      </ProjectType>
+    </Project>
+    <Submission last_update="2018-10-16" submitted="2018-10-16">
+      <Description>
+        <Organization role="owner" type="center">
+          <Name>EMG</Name>
+        </Organization>
+        <Access>public</Access>
+      </Description>
+    </Submission>
+  </DocumentSummary>
+</RecordSet>
