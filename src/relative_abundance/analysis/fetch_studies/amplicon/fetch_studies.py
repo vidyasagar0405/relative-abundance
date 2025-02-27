@@ -1,17 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import argparse
 import csv
-import sys
 from urllib.parse import urlencode
 
 from jsonapi_client import Filter, Session
 
 API_BASE = "https://www.ebi.ac.uk/metagenomics/api/v1"
-FILE_NAME = "exercise1-lite.csv"
+FILE_NAME = "./fetch_studies_amplicon.csv"
+# FILE_NAME = "./fetch_studies_assembly.csv"
 biome = "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
 experiment_type = "amplicon"
+# experiment_type = "assembly"
 
 print("Starting...")
 
