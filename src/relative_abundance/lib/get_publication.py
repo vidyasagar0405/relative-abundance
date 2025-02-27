@@ -36,6 +36,7 @@ def get_pubmed_id(accession):
     # Look for the <Publication> element inside <ProjectDescr>
     pub_elem = root.find(".//ProjectDescr/Publication")
     if pub_elem is not None and 'id' in pub_elem.attrib:
+        print("PubMed ID:", pub_elem.attrib['id'])
         return pub_elem.attrib['id']
     else:
         return "No PubMed ID found"
