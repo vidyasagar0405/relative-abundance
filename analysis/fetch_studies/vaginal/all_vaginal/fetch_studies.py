@@ -7,11 +7,8 @@ from urllib.parse import urlencode
 from jsonapi_client import Filter, Session
 
 API_BASE = "https://www.ebi.ac.uk/metagenomics/api/v1"
-# FILE_NAME = "./fetch_studies_amplicon.csv"
-FILE_NAME = "./fetch_studies_assembly.csv"
-biome = "root:Host-associated:Human:Digestive system:Large intestine:Fecal"
-# experiment_type = "amplicon"
-experiment_type = "assembly"
+FILE_NAME = "./fetch_studies_all_vaginal.csv"
+biome = "root:Host-associated:Human:Reproductive%20system:Vagina"
 
 print("Starting...")
 
@@ -36,9 +33,9 @@ with open(FILE_NAME, "w") as csvfile:
         # configure the filters
         params = {
             # 'accession': '',
-            "experiment_type": experiment_type,
+            # "experiment_type": experiment_type,
             # 'biome_name': '',
-            "lineage": biome,
+            # "lineage": biome,
             # 'geo_loc_name': '',
             # 'latitude_gte': '',
             # 'latitude_lte': '',
@@ -63,7 +60,7 @@ with open(FILE_NAME, "w") as csvfile:
         total = 0
 
         # sessions.iterate will take care of the pagination for us
-        for sample in session.iterate("studies", api_filter):
+        for sample in session.iterate(f"biomes/{biome}/studies", api_filter):
             total += 1
             print(f"page: {total} ...")
             rows = {
